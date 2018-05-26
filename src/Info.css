@@ -1,0 +1,17 @@
+div.info {
+    background-color: rgb(51, 51, 51);
+    height: 70px;
+    width: 35%;
+    float: left;
+    color: white;
+}
+
+@media (max-width: 600px) {
+   
+    div.info {
+        background-color: rgb(51, 51, 51);
+        height: 70px;
+        width: 100%;
+        color: white;
+    }
+}
