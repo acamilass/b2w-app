@@ -1,0 +1,64 @@
+header {     
+    margin-top: 50px;     
+    border-bottom:solid 1pt #FFF;  
+}
+
+/* photo */ .losango--top {     
+    margin: 0 auto;     
+    width: 120px;      
+    height: 120px;      
+    border: solid 1px white;     
+    background-color: white;     
+    transform: rotate(45deg);     
+    -ms-transform: rotate(45deg);     
+    -webkit-transform: rotate(45deg);      
+}
+
+.losango {     
+    width: 110px;      
+    height: 110px;      
+    border: solid 4px;     
+    background-color: #fff;     
+    transform: rotate(0deg);     
+    -ms-transform: rotate(0deg);     
+    -webkit-transform: rotate(0deg);     
+    border-right-width: 4px;    
+    margin-right: 2px;     
+    margin-top: 1px;     
+    margin-left: 1px;     
+    margin-bottom: 2px;    
+}
+
+#imagem {     
+    margin:  0 auto;          
+    display: block;     
+    width: 70px !important;      
+    height: 70px;      
+    background-image: url(https://github.com/b2w-marketplace/code-challenge/blob/master/files/avatar-dev.png?raw=true);     
+    background-position: center;     
+    background-repeat: no-repeat;     
+    transform: rotate(-45deg);     
+    margin-right: 28px;     
+    margin-top: 20px;     
+    margin-left: 19px;         
+}
+
+.displayName {     
+    margin: 0 auto;     
+    margin-top: 30px;     
+    font-size: 28pt;     
+    width: min-content;     
+    font-weight: bold;     
+    text-align: center;     
+    color: #fff;     
+    text-transform: uppercase;   
+}
+
+.profession {       
+    color: #fff;       
+    text-align: center;       
+    font-size: 8pt;       
+    margin-bottom: 30px; 
+    text-transform: uppercase;   
+}
+

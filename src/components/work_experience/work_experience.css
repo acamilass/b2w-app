@@ -1,0 +1,36 @@
+.work_experience {     
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.work_experience--title {     
+    text-align: left;     
+    padding-bottom: 15px;     
+    border-bottom: 1.5pt solid #333333;     
+    font-size: 15pt;     
+    font-weight: bolder; 
+}
+
+.work_experience--context {
+    margin-top: 30px;
+}
+
+.exper_title {
+    font-size: 12pt;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.exper_date {     
+    font-size: 10pt;     
+    font-weight: bolder;     
+    color: #333333; 
+    margin-bottom: 12px;     
+}
+
+.exper_description {     
+    font-size: 10pt;     
+    font-weight: bold; 
+    margin-bottom: 12px;
+}

@@ -1,0 +1,49 @@
+.context {     
+    font-family: 'Montserrat', sans-serif; 
+    margin-bottom: 30px;
+}
+
+.text-title {     
+    width: 50%;     
+    margin: 0 auto;     
+    margin-top: 30px;     
+    text-align: center;     
+    padding-bottom: 15px;     
+    color: #fff;     
+    font-weight: bold;     
+    border-bottom: 1pt solid #fff; 
+}
+
+.text {
+    font-size: 8pt;
+    color: #fff;
+    text-align: center;
+    width: 53%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.text_address {
+    width: 50%;
+}
+
+/** progress bar **/
+.progressbar {     
+    width: 55%;     
+    margin: 0 auto;
+}  
+
+.progressbar_border {     
+    border: solid 1px #fff; 
+}
+
+.progressbar_title {          
+    color: #fff;     
+    text-transform: uppercase;     
+    font-size: 8pt;     
+    text-align: center;     
+    margin-top: 15px; }  
+
+.progressbar_color {     
+    background-color: #fff; 
+}
