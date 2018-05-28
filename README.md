@@ -9,7 +9,7 @@
 
 > **Desenvolvedor:** Ana Camila Santos Sousa
 
->  **Método de Desenvolvimento:**  A estrutura do projeto foi criada com a ferramenta create-react-app e a codificação baseada no style guide do [https://github.com/airbnb/javascript](airbnb)
+>  **Método de Desenvolvimento:**  A estrutura do projeto foi criada com a ferramenta create-react-app e a codificação baseada no style guide do [airbnb](https://github.com/airbnb/javascript)
  
 ### Deploy do projeto
 
