@@ -10,7 +10,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "node_modules/.bin/serve -s build"
   },
   "devDependencies": {
     "babel-jest": "^23.0.0",
@@ -25,7 +26,8 @@
     "jest": "^23.0.0",
     "jest-cli": "^23.0.0",
     "react-addons-test-utils": "^15.6.2",
-    "react-scripts": "^1.1.4"
+    "react-scripts": "^1.1.4",
+    "serve": "^6.5.8"
   },
   "jest": {
     "moduleNameMapper": {
