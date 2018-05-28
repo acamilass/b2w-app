@@ -4,8 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "react-scripts": "1.1.4"
+    "react-dom": "^16.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,7 +24,22 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^23.0.0",
     "jest-cli": "^23.0.0",
-    "react-addons-test-utils": "^15.6.2"
+    "react-addons-test-utils": "^15.6.2",
+    "react-scripts": "^1.1.4"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "identity-obj-proxy"
+    },
+    "transform": {
+      "^.+\\.(js|jsx|mjs)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|mjs|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+    },
+    "setupFiles": [
+      "<rootDir>/config/polyfills.js",
+      "<rootDir>/setupTests.js"
+    ]
   }
- 
 }

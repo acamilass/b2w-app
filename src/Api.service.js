@@ -1,5 +1,5 @@
 export class ApiService {
-    static getApi=async (url) => {
+    static async getApi (url) {
         const resposta=await fetch(url);
         const body=await resposta.json();
             if(resposta.status !== 200) {

@@ -7,8 +7,13 @@ import {WorkExperienceComponent} from "./components/work_experience/work_experie
 import {ApiService} from "./Api.service";
 
 class App extends Component {
-  state={res: {}};
-  url = 'http://www.mocky.io/v2/5a5e38f3330000b0261923a5';
+  
+  
+  constructor() {
+    super();
+    this.state = {res: {}};
+    this.url = 'http://www.mocky.io/v2/5a5e38f3330000b0261923a5';
+  }
   
   componentDidMount() {
     ApiService.getApi(this.url).then(res=>this.setState({res: res.profile})).catch(console.log)
