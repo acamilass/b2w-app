@@ -1,5 +1,7 @@
 # Desafio Frontend - SkyHub/B2W
 
+> Link para o desafio - https://bit.ly/2svQyZC
+
 ### Metodologia 
 > **Padrão:** React
 
